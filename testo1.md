@@ -4,7 +4,7 @@
 
 **Collegamenti con il corso:** idrogeno, riga a 21 cm, formazione stellare, formazione delle galassie, quantistica (serie e livelli energetici), curve di rotazione delle galassie, luminosità stellare, sequenza principale, nucleosintesi.
 
-## L'irogeno
+## L'atomo di idrogeno
 
 L'idrogeno è l'elemento più semplice, abbondante e antico. Il protone compare a t ≈ 1 µs dopo il Big Bang; a t = 20 min l'abbondanza chimica primordiale era 76% H, 24% He, con tracce di Li e Be.
 
@@ -15,7 +15,7 @@ L'idrogeno è l'elemento più semplice, abbondante e antico. Il protone compare 
 
 Fino all'inizio del '900 si pensava che lo spazio interstellare fosse vuoto. Nel 1904 Hartmann, osservando δ Orionis (binaria spettroscopica), notò che le righe del CaII (e NaI) restavano ferme, senza lo spostamento Doppler periodico delle righe stellari, e avevano velocità radiali diverse da quelle della stella. Non potevano quindi appartenere alla stella osservata. Nel 1930 Trumpler scoprì la polvere interstellare e si iniziò a parlare di ISM (interstellar medium), insieme di gas e polveri che riempie lo spazio tra le stelle. L'ISM è per ≈ 99% gas e ≈ 1% polveri; del gas, ≈ 90% è idrogeno. L'idrogeno si presenta come ionizzato (HII), neutro (HI), molecolare (H₂). Ogni forma ha un proprio meccanismo di emissione e una propria firma osservativa.
 
-## Struttura atomica, fisica dell'atomo, modello quantistico
+### Struttura atomica, fisica dell'atomo, modello quantistico
 
 Bohr, con l'obiettivo di spiegare la stabilità degli atomi, propose questo modello:
 
@@ -52,7 +52,7 @@ $$ ψ_nlm(r,θ,φ) = [\frac{Rₙₗ(r)}{r}]·Y_l^m(θ,φ) $$
 Vincoli sui numeri quantici, per n fissato: $0 ≤ l ≤ n−1$ e $−l ≤ m ≤ +l$.
 Per ogni l ci sono $2l+1$ stati degeneri (stessa energia); per ogni n ce ne sono n² (2n² con lo spin). L'energia è
 
-$$ Eₙ = −[\frac{mₑ}{2ħ²}]·(\frac{e²}{4πε₀})²· \frac{1}{n²} $$
+$$ Eₙ = −[\frac{mₑ}{2ħ²}·(\frac{e²}{4πε₀})²]· \frac{1}{n²} $$
 
 Le transizioni elettroniche descrivono il passaggio tra stati Eₘ ed Eₙ.
 Einstein identificò tre processi $(m > n, Eₘ > Eₙ)$:
@@ -68,4 +68,42 @@ $$ Δl = ±1, Δm = 0, ±1, Δn\neq0 $$
 L'elettrone si comporta come un dipolo magnetico, quindi ha un momento angolare intrinseco (spin, $s = ½$, $m_s = ±½$). Questo porta alla struttura fine (accoppiamento spin-orbita più correzioni relativistiche) e, per l'interazione col momento magnetico del protone, alla struttura iperfine. Nello stato fondamentale l'iperfine toglie la degenerazione: spin paralleli = tripletto (energia maggiore), spin antiparalleli = singoletto (energia minore, più favorito). La differenza è
 
 $$ ΔE = (\frac{4}{3})·g_p·(\frac{mₑ}{m_p})·α⁴·mₑc² ≈ 5.88·10⁻⁶ eV $$
-che corrisponde a un fotone con $$ ν = ΔE/h = 1420 MHz $$ cioè $$ λ ≈ 21 cm $$.
+che corrisponde a un fotone con $$ ν = \frac{ΔE}{h} = 1420 MHz $$ cioè $$ λ ≈ 21 cm $$
+
+## Mezzo interstellare
+
+Come detto in precedenza l'idrogeno si trova in tre diverse forme nell'universo, per questo è utile fare una classificazione in base al tipo. Abbiamo Idrogeno Neutro HI, Ionizzato HII, Molecolare H2. Il mezzo interstellare (ISM) può essere diviso in 5 categorie in distinte:
+
+- **HIM** (Hot Ionized Medium) Caretterizzato dalla presenza di Idrogeno Ionizato HII a temperature elevate $ T = 10^6-10^7 K $ con densità tipiche $ n_H = 10^{-1}-10^{-3}$ cm $^{-3}$. Queste regioni si trovano nelle galassie ellittiche o nel bulge delle galassie a spirale. Le temperature sono conseguenza di esplosioni di supernove. Si possono osservare anche processi di ricombinazione.
+- **WIM** (Warm Ionized Medium) Vi è ancora Idrogeno Ionizzato HII e temperature di circa $ T = 10^4 K $ e densità $ n_H = 1-10^{-3}$ cm $^{-3} $. Si trovano in zone limitrofe a stelle massicce e calde, come stelle del tipo O e B. Queste stelle emettono moltissimo nell'UV, quinid sono in grado di Ionizzare l'idrogeno. Sono presenti anche intorno ai nuclei galattici.
+- **WNM** (Warm Neutral Medium) Caratterizzato dalla presenza di Idrogeno Neutro HI a temperature di circa $ T = 10^2-10^4 K $ con densità $ n_H = 0.1-1$ cm $^{-3}$. Queste zone si trovano tutto intorno alle galassie e vengono rilevate principalmente grazie all'emissione dell'idrogeno neutro a 1420MHz.
+- **CNM** (Cold Neutral Medium) Composto da Idrogeno Neutro, polveri, molecole e principalmente idrogeno molecolare H2. $ T = 10-10^3 K $ con densità $ n_H = 1-10 $ cm $^{-3} $
+
+### Idrogeno Neutro
+
+Nella nostra galassia, la forma dell'idrogeno neutro, (HI) è la forma dominante in cui questo si presenta.
+
+- Neutro $M_{HI}$~$4 * 10^9 M_☉$
+- Molecolare $M_{H_2}$~$10^9 M_☉$
+- Ionizzato $M_{HII}$~$10^8 M_☉$
+- Componente stellare $M_{*}$~$5 * 10^{10} M_☉$
+
+La distribuzione dell'HI non è isotropica, ma si concentra sui bracci a spirale
+
+#### La riga a 21cm
+
+La riga a 21cm oppure 1.4GHz in frequenza, è il metodo più importante per osservarlo.
+Come detto in precedenza, un fotone a frequenza $λ ≈ 21cm$ viene emesso quando avviene un'inversione di spin all'itnerno dell'atomo di idrogeno, quando si passa da uno stato di tripletto (eccitato) ad uno stato di singoletto. Questra transizione avviene per emissione spontanea ed il suo coefficiente di Einstein è $A_H = 2.87 ×10^{−15}s^{−1}$. Questa transizione è proibita ed il tempo di vita medio dell'elettrone in stato eccitato risulta essere $τ = \frac{1}{A_H}∼10^7 anni.$
+Gli atomi HI si trovano nello stato di tripletto dopo aver subito una collisione con un altro HI; a questo punto possono tornare nello stato fondamentale liberandosi di questa energia in eccesso tramite un'altra collisione oppure emettendo radiazione a 21cm.
+Vista l'enorme quantità di HI la quantità di  diseccitazioni radiative è significativo, quindi quest'emissione diventa una componente fondamentale delle osservazioni astronomiche.
+La riga a 21cm viene osservata nella banda radio, la quale è l'unica che ci permette ossrvazioni da terra. I fotoni radio infatti non interagiscono con l'atmosfera, ionosfera e ISM.
+Possiamo ottenere una mappatura della distribuzione di HI nelle galassie a spirale irregolari: qui il gas è organizato in nubi che si estendono otlre alla componente stellare.
+La massa di idrogeno neutro per regioni otticamente sottili è data da:
+
+$$ M_{HI} = 2.36×10^5(\frac{D}{Mpc})^2 ∫ \frac{S}{Jy}\frac{dv}{km/s} [M_☉]  $$
+
+dove:
+
+- $D$ è la distanza dalla nube
+- $S$ è il fusso osservato
+- $dv$ misura la larghezza della riga allargata dall'effetto Doppler
