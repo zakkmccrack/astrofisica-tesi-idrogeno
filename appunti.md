@@ -1,4 +1,4 @@
-# Cose aggiuntive
+# Cose da aggiungere
 
 1. **Limiti di Bohr e passaggio alla quantistica** (Soto 1.1-2.1): Bohr non spiega Zeeman, Stark, struttura fine e iperfine. De Broglie 1924, Davisson-Germer 1927; "orbita" → "orbitale".
 2. **Dati base** (Nanci 1.2): stato fondamentale E = −13.6 eV (energia di legame), α ≈ 7.3·10⁻³ per la struttura fine, a₀ = 0.529·10⁻¹⁰ m.

@@ -107,3 +107,37 @@ dove:
 - $D$ è la distanza dalla nube
 - $S$ è il fusso osservato
 - $dv$ misura la larghezza della riga allargata dall'effetto Doppler
+
+La distribuzione della massa di idrogeno ci permette di capire quali zone del mezzo interstellare stiamo osservando.
+Infatti abbiamo il Warm Neutral Medium con temperature tra i $T ∼ 10^3 − 10^4 K$ dove l'idrogeno viene riscaldato dai raggi UV e radiazione a raggi X ed il Cold Neutral Medium $T ∼ 10 − 100 K$.
+
+#### Curva di rotazione delle galassie a spirale
+
+A cusa della sua rotazione intorno al centro galattico, quando andiamo a fare una misurazione nei bracci della galassia a spirale, misuriamo uno spostamento della riga dovuto all'effetto Doppler. Quando li moto della nube è in allontanamento abbiamo uno spostamento verso la riga del rosso, in caso di avvicinamento verso il blu.
+Con questo fenomeno possiamo capire quale è il moto di un oggetto anche a grandi distanze.
+
+Il potenziale gravitazionale a cui sono soggetti stelle e gas è quello della galassia, quindi devono muoversi con
+$$
+F=\frac{GM(r)m}{r^2} = \vec{F} = m\vec{a}
+→
+\frac{GM(r)m}{r^2}= m\frac{v^2}{r}
+$$
+Con $\vec{a}$ accellerazione centripeta.
+Quindi, la velocità circolare di rotazione è
+$$
+v^2_c = \frac{GM(r)}{r}
+$$
+
+Per analizzare questa velocità di rotazione dobbiamo dividere la galassia in 3 zone in base alla distribuzione della massa. La distribuzione viene stimata dalla radiazione proveniente da quelle zone.
+
+- Bulge Galattico: $v(r) = r\sqrt{\rho(r)}$ questo punto viene considerato a densità costante ed assumiamo la rotazione di corpo rigido. La velocità cresce in maniera lineare rispetto alla distanza.
+- Disco galattico: $v(r) = const$ la velocità di rotazione rimane costante.
+- A grande distanza dal centro galattico ci si aspetterebbe una caduta kepleriana quindi $v(r) = \sqrt{\frac{GM}{r}}$ con $M =$ costante.
+
+Dal profilo di riga osservata possiamo risalire alla cinematica della galassia e dall'allargamento possiamo capire la velocità radiale.
+Tuttavia la situazione in cui $v(r) = const$ si osserva per raggi molto maggiori di quelli previsti dal modello teorico.
+Superata l'estensione del disco galattico la curva di rotaizione rimane piatta. Questa cosa ci suggerisce la presenza di una massa aggiuntiva oltre a quella del disco.
+
+#### Relazione di Tully-Fisher
+
+
