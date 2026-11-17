@@ -130,7 +130,7 @@ $$
 
 Per analizzare questa velocità di rotazione dobbiamo dividere la galassia in 3 zone in base alla distribuzione della massa. La distribuzione viene stimata dalla radiazione proveniente da quelle zone.
 
-- Bulge Galattico: $v(r) = r\sqrt{\rho(r)}$ questo punto viene considerato a densità costante ed assumiamo la rotazione di corpo rigido. La velocità cresce in maniera lineare rispetto alla distanza.
+- Bulge Galattico: $v(r) ∼ r\sqrt{\rho(r)}$ questo punto viene considerato a densità costante ed assumiamo la rotazione di corpo rigido. La velocità cresce in maniera lineare rispetto alla distanza.
 - Disco galattico: $v(r) = const$ la velocità di rotazione rimane costante.
 - A grande distanza dal centro galattico ci si aspetterebbe una caduta kepleriana quindi $v(r) = \sqrt{\frac{GM}{r}}$ con $M =$ costante.
 
@@ -139,5 +139,3 @@ Tuttavia la situazione in cui $v(r) = const$ si osserva per raggi molto maggiori
 Superata l'estensione del disco galattico la curva di rotaizione rimane piatta. Questa cosa ci suggerisce la presenza di una massa aggiuntiva oltre a quella del disco.
 
 #### Relazione di Tully-Fisher
-
-
