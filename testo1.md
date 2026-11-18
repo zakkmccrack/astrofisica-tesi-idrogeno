@@ -207,4 +207,16 @@ R_s = (\frac{3}{4 \pi} \frac{S_*}{\alpha(T)n^2_H})^{1/3}
 $$
 
 Questo fenomeno comporta una diminuzionen di radiazione nell'UV (causa ionizzazione), la presenza di un continuo di bremmstrhalung ed un gran numero di righe di ricombinazione.
-Il tempo che una zona
+Il tempo scala di ricombinazione risulta essere
+$$
+\tau_{rec} = \frac {1}{n_e \alpha_H} ≈ \frac{10^5yr}{n(e)}
+$$
+
+La grandezza della densità elettronica $n(e)$ ci da delle indicazioni sulla soglia di densità critica oltre la quale prevalgono i precessi radiativi attraverso la comparazione con la densità critica $n_c = \frac{A_{ul}}{Q_{ul}}$ abbiamo:
+
+- $n(e)>n_c$ l'energia degli elettroni verrà dissipata in urti
+- $n(e)<<n_c$ ci sarà irraggiamento sotto forma di righe di ricombinazione con $L ∝ n(e)2$
+
+Dentro queste nubi il processo di disetticazione collisionale concorre con quello di emissione spontanea.
+Se consideriamo una densità $n_c = \frac{A_{ul}}{Q_{ul}}$ questa ci dà un valore sotto al quale i processi radiativi prevalgono.
+Questa è il rapporto tra il coefficiente di Einstein  di emissione spontanea e quello di diseccitazione collisionale dati due livelli $u$ ed $l$ con $u>l$.
