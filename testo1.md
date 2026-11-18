@@ -139,3 +139,72 @@ Tuttavia la situazione in cui $v(r) = const$ si osserva per raggi molto maggiori
 Superata l'estensione del disco galattico la curva di rotaizione rimane piatta. Questa cosa ci suggerisce la presenza di una massa aggiuntiva oltre a quella del disco.
 
 #### Relazione di Tully-Fisher
+
+Nel solo caso delle galassie a spirale, a partire dai dati precedenti, possiamo ricavare una legge che lega la luminoità del disco galattico alla velocità di rotazione delle nubi HI.
+Si ha
+$$
+L_{disk} ≈ v^4_{HI}
+→
+L∝v^α_c
+$$
+Queta relazioe è importantissima nel calcolo delle distanze astronomiche. Si ha
+$$
+L_{disk}= 4 \pi d^2 l
+$$
+dove l è la luminosità apparente e d la distanza alla quale osserviamo la galassia. Da questo possiamo ricavare la distanza come:
+$$
+d = \sqrt{\frac{L_{disk}}{4\pi l}} ≈ \sqrt{\frac{v^4_{HI}}{4\pi l}}
+$$
+
+### Idrogeno Ionizzato
+
+L'idrogeno ha una energia di ionizzazione pari a 13.6 eV e si trova in regioni con temperature $>=10^4K$.
+Queste regioni sono:
+
+- Hot Ionized Medium
+- Intra Cluster Medium, $10^6 - 10^7 K$
+- Warm Ionized Medium, $10^4 K$, intorno a stelle di classe O-B.
+
+Le stelle di classe O-B sono stelle dalla vita molto breve, quindi queste regioni dove si trova l'HII sono relativamente giovani con un recente episodio di formazione stellare avvenuto.
+In queste zone la densità degli ioni di idrogeno è tra i $10^{-1} e 10^{-4} cm^{-3}$ mentre per l'HIM $10^{-3} cm^{-3}$ ed il mezzo interstellare assume la forma di plasma neutro.
+
+#### Emissione in righe di ricombinazione
+
+Nelle zone ad alta Ionizzazione uò avvenire la ricombinazione: gli elettroni liberi vengono catturati dagli ioni positivi e si posizionano in un certo livello energetico emettendo un fotone di energia.
+La transizione avviene tra il livello $ n= \infty $ ed il livello al quale si ricollega.
+Da questo livello possono poi decadere fino ad arrivare ai livelli $ n=1,2 $.
+Le righe generate dall'emissione in seguito alla ricombinazione vengono nominate con il numero del livello energetico di arrivo dell'elettrone seguito da $\alpha$ se $\Delta n = 1$, $\beta$ se $\Delta n = 2$ e così via.
+Per le serie iniziali i fotoni vengon chiamati
+
+- $H\alpha$, $H\beta$, ... per Balmer
+- $Ly\alpha$ per Lyman
+- $Pa\delta$ per Paschen
+
+La serie di Lyman difficilmente uscirà dalla nube, visto che i fotoni sono considearti fotoionizzanti.
+Le righe $H\alpha$ ed $H\beta$ sono le più importanti ed emettono a $656.3nm$ nel rosso e $486.1nm$ nel blu.
+
+#### Sfera di Strömgren
+
+Nelle nubi attorno alle stelle giovani di classe O-B vi è un intenso campo di radiazioe do di fotoni, il quale compora un processo di fotoionizzazione del gas.
+Il rate di fotoionizzazione dipende dalla sezione d'urto di fotoionizzazione $\sigma_ion(\nu)$, dalla densità di atomi neutri $n(H)$ e dal flusso di fotoni fotoionizzanti $S_*$
+Il rate di fotoinizzazione è
+$$
+\dot{N}_{pi} = n(H)\sigma_ion(\nu)\frac{S_*}{4 \pi R^2} → S_*=\int^\infty_{13.6 eV} \frac{L_{\nu}}{h \nu} d \nu
+$$
+Questi elettroni liberi emettono per bremsstrahlung. Il rate di ricombinazione si definisce come
+$$
+\dot{N}_{rec} = n(H^+)n(e)\alpha_H(T)
+$$
+Dove abbiamo:
+
+- $\alpha_H(T)$ = tasso di ricombinazione
+- n(H^+) densità di ioni
+- n(e) elettroni liberi
+
+Imponendo un equilibrio tra i processi di ionizzazione e ricombinazione si ha una superficie sfetica all'interno della quale l'idrogeno è completamente ionizzato ed all'esterno è completamene neutro. Questa sfera di chiama sfera di Strömgren ed ha raggio stimato
+$$
+R_s = (\frac{3}{4 \pi} \frac{S_*}{\alpha(T)n^2_H})^{1/3}
+$$
+
+Questo fenomeno comporta una diminuzionen di radiazione nell'UV (causa ionizzazione), la presenza di un continuo di bremmstrhalung ed un gran numero di righe di ricombinazione.
+Il tempo che una zona
