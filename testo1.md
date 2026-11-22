@@ -215,8 +215,28 @@ $$
 La grandezza della densità elettronica $n(e)$ ci da delle indicazioni sulla soglia di densità critica oltre la quale prevalgono i precessi radiativi attraverso la comparazione con la densità critica $n_c = \frac{A_{ul}}{Q_{ul}}$ abbiamo:
 
 - $n(e)>n_c$ l'energia degli elettroni verrà dissipata in urti
-- $n(e)<<n_c$ ci sarà irraggiamento sotto forma di righe di ricombinazione con $L ∝ n(e)2$
+- $n(e)<<n_c$ ci sarà irraggiamento sotto forma di righe di ricombinazione con $L ∝ n(e)^2$
 
-Dentro queste nubi il processo di disetticazione collisionale concorre con quello di emissione spontanea.
-Se consideriamo una densità $n_c = \frac{A_{ul}}{Q_{ul}}$ questa ci dà un valore sotto al quale i processi radiativi prevalgono.
-Questa è il rapporto tra il coefficiente di Einstein  di emissione spontanea e quello di diseccitazione collisionale dati due livelli $u$ ed $l$ con $u>l$.
+$n_c$ è il rapporto tra il coefficiente di Einstein  di emissione spontanea e quello di diseccitazione collisionale dati due livelli $u$ ed $l$ con $u>l$.
+La densità elettronica è correlata alla luminosità bolometrica attraverso la funzione di raffreddamento $\Lambda(T)$. Questa ci dipende anche dalla metallicità e ci dice fquanto è efficiente a dissipare energia radiativa, quindi ad emettere luminosità.
+$$
+L ∝ n(e)^2 \Lambda(T)
+$$
+
+### Idrogeno Molecolare
+
+Il gas molecolare è il responsabile della formazione stellare grazie al collasso delle zone chiamate GMC (giant molecular clouds), delle grandissime nubi di $H_2$. I canali di formazione dell'$H_2$ sono:
+
+- canale dell'$H^+$ efficiente ad alti redshift; le rezioni sono:
+    - $H^+ + H → H_2^+ + h\nu$
+    - $H^+_2 + H → H_2 + H^+$
+- canale dell $H^-$ a redshift inferiori con le reazioni:
+    - $H + e^- → H^- + h\nu$
+    - $H + H^- → H_2 + e^-$
+- formazione a 3 corpi, ad alte densità durante il collasso della nube:
+    - $H+H+H →  H_2 + H$
+    - $H+H+H_2 →  H_2 + H_2$
+
+I grani di polvere interstellare aiutano la formazione dell $H_2$ schermano gli atomi di idrogeno dal campo di radiazione.
+Avvengono transizioni elettroniche (UV, visibile), vibrazionali (IR) e rotazionali (microonde), quantizzate.
+La formazione di $H_2$ è rara e di conseguenza anche la sua osservazione visto che ha un $\Delta J = +-2$ relativo alla transizione di quadripolo osservabile a temperature intorno ai 510K ed ha un coefficiente di Einstein basso, pari ad $A=3*10^{11} s^{-1}$.
