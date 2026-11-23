@@ -254,3 +254,25 @@ Le GMC hanno un'alta densità rispetto all'ISM. La densità di colonna $N_{H_2}$
 
 ## Nucleosintesi stellare
 
+La vita delle stelle viene regolata dall'idrogeno, il quale funge da carburante nella fase dominante della loro esistenza, ovvero quando si trovano nella sequenza principale.
+Il mantenimento della struttura stellare è dovuto alla fusione dell'idrogeno in elio attraverso due canali principali, il ciclo CNO e la catena PP
+
+### La catena Protone-Protone (PP)
+
+La catena PP si divide in 3 rami in base alle temperature di attvazione
+Attorno a temperature di $\sim 6 * 10^6K$ diventa efficiente la fusione PPI tra due protoni che producono un atomo di deuterio, grazie al decadimento $\beta^+$, il quale viene poi fuso con l'idrogeno per formare $^3He$ che poi unito ad un altro nucleo $^3He$ da $^4He$.
+Intorno ai $15*10^6 K$, dopo che la catena PPI hai iniziato a formare $^4He$, si avvia la seconda rezione, la catena PPII.
+Questa catena a partire da $^3He + ^4He$ produce del $^7Be$ che interagendo con un elettrone produce del $^7Li$.
+La fase PPIII è una diramazione dell PPII e differisce per l'interazione del $^7Be$. Invece di interagire con un elettrone interagisce con un protone portando alla formazione del boro $^8B$ il quale poi decade in $^8Be$. Questa ultima reazione porta ad una grande perdita di energia che rende questo ramo quello con la produzione energetica minore di tutta la catena.
+
+### Ciclo CNO
+
+In presenza di elementi pesanti come Carbonio (C), Azoto (N) ed Ossigeno (O) e temperature di circa $15*10^6 K$ si attiva il ciclo CNO.
+Questo elementi fungoon da catalizzatori per il bruciamento dell'idrogeno in elio.
+Il ciclo si divide in un ramo veloce ed in un ramo lento.
+La parte del ciclo fino alla reazione $^{14}N + ^1H \rightarrow ^{13}O + \gamma$  quella del ramo veloce, mentre tutta la parte di ciclo che viene dopo si chiama ramo lento.
+Questo ciclo si pensa essere il dominante in stelle con $M_\ast \sim 1.3 M_\odot$.
+
+### Fasi successive (accenno)
+
+Dopo la bruciatura dell'idrogeno e quando la temperature raggiunte valori  $T = 15*10^6 K$ può iniziare la fase di combustione dell'elio attraverso il processo Triplo Alfa
