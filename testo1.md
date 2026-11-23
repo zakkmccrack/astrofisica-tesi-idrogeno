@@ -158,7 +158,7 @@ $$
 
 ### Idrogeno Ionizzato
 
-L'idrogeno ha una energia di ionizzazione pari a 13.6 eV e si trova in regioni con temperature $>=10^4K$.
+L'idrogeno ha una energia di ionizzazione pari a 13.6 eV e si trova in regioni con temperature $\geq10^4K$.
 Queste regioni sono:
 
 - Hot Ionized Medium
@@ -225,7 +225,8 @@ $$
 
 ### Idrogeno Molecolare
 
-Il gas molecolare è il responsabile della formazione stellare grazie al collasso delle zone chiamate GMC (giant molecular clouds), delle grandissime nubi di $H_2$. I canali di formazione dell'$H_2$ sono:
+Il gas molecolare è il responsabile della formazione stellare grazie al collasso delle zone chiamate GMC (giant molecular clouds), delle grandissime nubi di $H_2$.
+I canali di formazione dell'$H_2$ sono:
 
 - canale dell'$H^+$ efficiente ad alti redshift; le rezioni sono:
     - $H^+ + H → H_2^+ + h\nu$
@@ -239,4 +240,17 @@ Il gas molecolare è il responsabile della formazione stellare grazie al collass
 
 I grani di polvere interstellare aiutano la formazione dell $H_2$ schermano gli atomi di idrogeno dal campo di radiazione.
 Avvengono transizioni elettroniche (UV, visibile), vibrazionali (IR) e rotazionali (microonde), quantizzate.
-La formazione di $H_2$ è rara e di conseguenza anche la sua osservazione visto che ha un $\Delta J = +-2$ relativo alla transizione di quadripolo osservabile a temperature intorno ai 510K ed ha un coefficiente di Einstein basso, pari ad $A=3*10^{11} s^{-1}$.
+La formazione di $H_2$ è rara e di conseguenza anche la sua osservazione visto che ha un $\Delta J = \pm2$ relativo alla transizione di quadripolo osservabile a temperature intorno ai 510K ed ha un coefficiente di Einstein basso, pari ad $A=3*10^{11} s^{-1}$.
+La molecola di CO, la seconda più presente nell'universo, ci viene in aiuto per lo studio dell'abbondanza dell'$H_2$, perchè avendo una elevata energia di legame (11.1 eV) risulta difficile da dissociare ed ha un momento di dipolo permanente che permette transizioni di dipolo $\Delta J = \pm1$ che si può osservare a temperature di 5.5K. Si stima il fattore di conversione $\frac{CO}{H_2}$ osservando il flusso $I_{CO}$ di CO prodotto durante una transizione
+$$
+x_{CO} = \frac{N_{H_2}}{I_{CO}} ∼ 2 * 10^{20}[cm^{-2}K^{-1}s]
+$$
+dove
+$$
+I_{CO} = \int_{ \Delta \nu}F(\nu)d\nu
+$$
+$N_{H_2}$ rappresenta la densità della colonna di $H_2$.
+Le GMC hanno un'alta densità rispetto all'ISM. La densità di colonna $N_{H_2}$ ricavata dal fattore $x_{CO}$  ci permette di scoprire che per valori $\geq 10^{17} cm ^ {-2}$ la nube sviluppa una opacità di $\tau ∼ 1$ dove la radiazione UV ed ottica non riesce a passare. Questo fenomeno prende il nome di self shielding e permette alla nube di non perdere materiale molecolare per fotodissociazione.
+
+## Nucleosintesi stellare
+
