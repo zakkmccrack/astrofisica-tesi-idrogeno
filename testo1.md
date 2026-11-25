@@ -58,7 +58,7 @@ Le transizioni elettroniche descrivono il passaggio tra stati $E_m$ ed $E_n$.
 Einstein identificò tre processi $(m > n, E_m > E_n)$:
 
 - **Emissione spontanea:** l'elettrone in Eₘ si diseccita ed emette un fotone $h\nu = E_m − E_n$. Il coefficiente $A_{mn} [s^{-1}]$ è la probabilità per unità di tempo; il tempo di vita medio è $t = 1/A_{mn}$.
-- **Emissione stimolata:** un fotone incidente induce la diseccitazione, con emissione di un fotone di pari energia e fase. Coefficiente $B_{mn} \rho_{mn} [s^{-1}]$, con $\rho$ densità di energia per radiazione.
+- **Emissione stimolata:** un fotone incidente induce la diseccitazione, con emissione di un fotone di pari energia e fase. Coefficiente $B_{mn} \rho_{mn} [s^{-1}]$, con $\rho$ densità di energia di radiazione per unità di frequenza.
 - **Assorbimento:** l'elettrone passa da $E_n$ a $E_m$ assorbendo un fotone $h\nu = E_m − E_n$. Coefficiente $B_{nm} \rho_{mn}$.
 
 Regole di selezione (approssimazione di dipolo elettrico):
@@ -74,10 +74,10 @@ che corrisponde a un fotone con $$ \nu = \frac{\Delta E}{h} = 1420 MHz $$ cioè 
 
 Come detto in precedenza, l'idrogeno si trova in tre diverse forme nell'universo, per questo è utile fare una classificazione in base al tipo. Abbiamo Idrogeno Neutro HI, Ionizzato HII, Molecolare $H_2$. Il mezzo interstellare (ISM) può essere diviso in 4 categorie in distinte:
 
-- **HIM** (Hot Ionized Medium) Caretterizzato dalla presenza di Idrogeno Ionizato HII a temperature elevate $T = 10^6-10^7 \text{K}$ con densità tipiche $n_H = 10^{-1}-10^{-3}$ cm $^{-3}$. Queste regioni si trovano nelle galassie ellittiche o nel bulge delle galassie a spirale. Le temperature sono conseguenza di esplosioni di supernove. Si possono osservare anche processi di ricombinazione.
-- **WIM** (Warm Ionized Medium) Vi è ancora Idrogeno Ionizzato HII e temperature di circa $T = 10^4 \text{K}$ e densità $ n_H = 1-10^{-3}$ cm $^{-3}$. Si trovano in zone limitrofe a stelle massicce e calde, come stelle del tipo O e B. Queste stelle emettono moltissimo nell'UV, quinid sono in grado di Ionizzare l'idrogeno. Sono presenti anche intorno ai nuclei galattici.
-- **WNM** (Warm Neutral Medium) Caratterizzato dalla presenza di Idrogeno Neutro HI a temperature di circa $T = 10^2-10^4 \text{K}$ con densità $n_H = 0.1-1$ cm $^{-3}$. Queste zone si trovano tutt'intorno alle galassie e vengono rilevate principalmente grazie all'emissione dell'idrogeno neutro a 1420MHz.
-- **CNM** (Cold Neutral Medium) Composto da Idrogeno Neutro, polveri, molecole e principalmente idrogeno molecolare $H_2$. $T = 10-100\text{K}$ con densità $n_H = 1-10$ cm $^{-3}$
+- **HIM** (Hot Ionized Medium) Caretterizzato dalla presenza di Idrogeno Ionizato HII a temperature elevate $T = 10^6-10^7 \text{K}$ con densità tipiche $n_H = 10^{-3}-10^{-2}$ cm $^{-3}$. Queste regioni si trovano nelle galassie ellittiche, nel bulge e nel disco delle galassie a spirale. Le temperature sono conseguenza di esplosioni di supernove. Si può osservare in raggi X e righe di assorbimento..
+- **WIM** (Warm Ionized Medium) Vi è ancora Idrogeno Ionizzato HII e temperature di circa $T = 10^4 \text{K}$ e densità $ n_H = 1-10^{-3}$ cm $^{-3}$. Si trovano in zone limitrofe a stelle massicce e calde, come stelle del tipo O e B. Queste stelle emettono moltissimo nell'UV, quindi sono in grado di Ionizzare l'idrogeno. Sono presenti anche intorno ai nuclei galattici.
+- **WNM** (Warm Neutral Medium) Caratterizzato dalla presenza di Idrogeno Neutro HI a temperature di circa $T = 5000 - 10^4 \text{K}$ con densità $n_H = 0.1-1$ cm $^{-3}$. Queste zone si trovano tutt'intorno alle galassie e vengono rilevate principalmente grazie all'emissione dell'idrogeno neutro a 1420MHz.
+- **CNM** (Cold Neutral Medium) Composto prevalentemente da Idrogeno Neutro. $T = 50-100\text{K}$ con densità $n_H = 1-10$ cm $^{-3}$
 
 ### Idrogeno Neutro
 
@@ -96,7 +96,7 @@ La riga a 21cm oppure 1.4GHz in frequenza è il metodo più importante per osser
 Come detto in precedenza, un fotone a lunghezza d'onda $\lambda \approx 21cm$ viene emesso quando avviene un'inversione di spin all'interno dell'atomo di idrogeno, quando si passa da uno stato di tripletto (eccitato) ad uno stato di singoletto. Questa transizione avviene per emissione spontanea ed il suo coefficiente di Einstein è $A_H = 2.87 ×10^{−15}s^{−1}$. Questa transizione è proibita ed il tempo di vita medio dell'elettrone in stato eccitato risulta essere $\tau = \frac{1}{A_H}∼10^7 anni.$
 Gli atomi HI si trovano nello stato di tripletto dopo aver subito una collisione con un altro HI; a questo punto possono tornare nello stato fondamentale liberandosi di questa energia in eccesso tramite un'altra collisione oppure emettendo radiazione a 21cm.
 Vista l'enorme quantità di HI la quantità di diseccitazioni radiative è significativo, quindi quest'emissione diventa una componente fondamentale delle osservazioni astronomiche.
-La riga a 21cm viene osservata nella banda radio, la quale è l'unica che ci permette ossrvazioni da terra. I fotoni radio infatti non interagiscono con l'atmosfera, ionosfera e ISM.
+La riga a 21cm viene osservata nella banda radio. I fotoni radio infatti non interagiscono con l'atmosfera, ionosfera e ISM.
 Possiamo ottenere una mappatura della distribuzione di HI nelle galassie a spirale ed irregolari: qui il gas è organizzato in nubi che si estendono oltre alla componente stellare.
 La massa di idrogeno neutro per regioni otticamente sottili è data da:
 
@@ -105,8 +105,8 @@ $$ M_{HI} = 2.36×10^5(\frac{D}{Mpc})^2 ∫ \frac{S}{Jy}\frac{dv}{km/s} [M_\odot
 dove:
 
 - $D$ è la distanza dalla nube
-- $S$ è il fusso osservato
-- $dv$ misura la larghezza della riga allargata dall'effetto Doppler
+- $S$ densità del fusso osservato in Jansky (Jy)
+- $ ∫ \frac{S}{Jy}\frac{dv}{km/s}$ è il flusso integrato in velocità
 
 La distribuzione della massa di idrogeno ci permette di capire quali zone del mezzo interstellare stiamo osservando.
 Infatti abbiamo il Warm Neutral Medium con temperature tra i $T ∼ 10^2− 10^4 \text{K}$ dove l'idrogeno viene riscaldato dai raggi UV e radiazione X ed il Cold Neutral Medium $T ∼ 10 − 100 \text{K}$.
@@ -135,7 +135,7 @@ Per analizzare questa velocità di rotazione dobbiamo dividere la galassia in 3 
 - A grande distanza dal centro galattico ci si aspetterebbe una caduta kepleriana quindi $v(r) = \sqrt{\frac{GM}{r}}$ con $M =$ costante.
 
 Dal profilo di riga osservata possiamo risalire alla cinematica della galassia e dall'allargamento possiamo capire la velocità radiale.
-Tuttavia la situazione in cui $v(r) = const$ si osserva per raggi molto maggiori di quelli previsti dal modello teorico.
+Tuttavia la situazione in cui $v(r) = const$, si osserva per raggi molto maggiori di quelli previsti dal modello teorico.
 Superata l'estensione del disco galattico la curva di rotazione rimane piatta. Questa cosa ci suggerisce la presenza di una massa aggiuntiva oltre a quella del disco.
 
 #### Relazione di Tully-Fisher
@@ -153,7 +153,7 @@ L_{disk}= 4 \pi d^2 l
 $$
 dove l è il flusso (luminosità apparente) e d la distanza alla quale osserviamo la galassia. Da questo possiamo ricavare la distanza come:
 $$
-d = \sqrt{\frac{L_{disk}}{4\pi l}} \approx \sqrt{\frac{v^4_{HI}}{4\pi l}}
+d = \sqrt{\frac{L_{disk}}{4\pi l}} \propto \sqrt{\frac{v^4_{HI}}{4\pi l}}
 $$
 
 ### Idrogeno Ionizzato
@@ -165,7 +165,7 @@ Queste regioni sono:
 - Intra Cluster Medium, $10^6 - 10^7 \text{K}$
 - Warm Ionized Medium, $10^4 \text{K}$, intorno a stelle di classe O-B.
 
-Le stelle di classe O-B sono stelle dalla vita molto breve, quindi queste regioni dove si trova l'HII sono relativamente giovani, con un recente episodio di formazione stellare.11111111
+Le stelle di classe O-B sono stelle dalla vita molto breve, quindi queste regioni dove si trova l'HII sono relativamente giovani, con un recente episodio di formazione stellare.
 In queste zone la densità degli ioni di idrogeno è tra i $10^{-1} \text{ e } 10^{-4} cm^{-3}$ mentre per l'HIM $10^{-3} cm^{-3}$ ed il mezzo interstellare assume la forma di plasma neutro.
 
 #### Emissione in righe di ricombinazione
@@ -180,7 +180,7 @@ Per le serie iniziali i fotoni vengon chiamati
 - $Ly\alpha$ per Lyman
 - $Pa\delta$ per Paschen
 
-La serie di Lyman difficilmente uscirà dalla nube, visto che i fotoni sono considerati fotoionizzanti.
+La serie di Lyman difficilmente uscirà dalla nube, visto che i fotoni sono considerati fotoionizzanti ad hanno uno spessore ottico elevato che li fa riassorbire.
 Le righe $H\alpha$ ed $H\beta$ sono le più importanti ed emettono a $656.3nm$ nel rosso e $486.1nm$ nel blu.
 
 #### Sfera di Strömgren
